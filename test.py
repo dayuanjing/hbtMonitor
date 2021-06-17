@@ -86,8 +86,6 @@ class TestLotusDredge:
                              "./lotus.sh mpool replace --really-do-it --gas-feecap 12000000000 --gas-limit " \
                              + str(gas_limit) + " --gas-premium 130000 " + dredge_from + ' ' + str(nonce)
 
-                print(dredge_cmd)
-
 
 if __name__ == '__main__':
     second = TestLotusDredge.sleep_time(0, 0, 5)
